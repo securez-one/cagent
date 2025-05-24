@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudradar-monitoring/cagent"
-	"github.com/cloudradar-monitoring/cagent/pkg/csender"
+	"github.com/securez-one/cagent"
+	"github.com/securez-one/cagent/pkg/csender"
 )
 
 type boolFlag struct {

@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 var svcConfig = &service.Config{

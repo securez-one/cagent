@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 func updateServiceConfig(ca *cagent.Cagent, userName string) {

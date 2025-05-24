@@ -19,7 +19,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vcraescu/go-xrandr"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 var lsusbLineRegexp = regexp.MustCompile(`[0-9|a-z|A-Z|.|/|-|:|\[|\]|_|+| ]+`)

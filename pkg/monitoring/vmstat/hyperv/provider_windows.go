@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudradar-monitoring/cagent/perfcounters"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat/types"
-	"github.com/cloudradar-monitoring/cagent/pkg/wmi"
+	"github.com/securez-one/cagent/perfcounters"
+	"github.com/securez-one/cagent/pkg/monitoring"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat/types"
+	"github.com/securez-one/cagent/pkg/wmi"
 )
 
 type impl struct {

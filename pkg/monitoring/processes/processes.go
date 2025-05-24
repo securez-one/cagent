@@ -7,7 +7,7 @@ import (
 	"github.com/shirou/gopsutil/mem"
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 var log = logrus.WithField("package", "processes")

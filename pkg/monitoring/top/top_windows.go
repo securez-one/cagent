@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/winapi"
+	"github.com/securez-one/cagent/pkg/winapi"
 )
 
 func (t *Top) GetProcesses(interval time.Duration) ([]*ProcessInfoSnapshot, error) {

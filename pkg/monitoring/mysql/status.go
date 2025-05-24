@@ -8,7 +8,7 @@ import (
 	// import mysql driver to inject into database/sql
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 type Status struct {

@@ -16,9 +16,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent"
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/proxydetect"
+	"github.com/securez-one/cagent"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/proxydetect"
 )
 
 func (cs *Csender) httpClient() *http.Client {

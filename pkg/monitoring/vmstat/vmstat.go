@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat/types"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat/types"
 )
 
 type provEntry struct {

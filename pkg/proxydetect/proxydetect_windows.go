@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/winapi"
+	"github.com/securez-one/cagent/pkg/winapi"
 	"golang.org/x/sys/windows"
 )
 

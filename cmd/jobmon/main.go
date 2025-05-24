@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent"
-	"github.com/cloudradar-monitoring/cagent/pkg/jobmon"
+	"github.com/securez-one/cagent"
+	"github.com/securez-one/cagent/pkg/jobmon"
 )
 
 const (

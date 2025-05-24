@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	utilnet "github.com/shirou/gopsutil/net"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/winapi"
+	"github.com/securez-one/cagent/pkg/winapi"
 )
 
 type windowsLinkSpeedProvider struct {

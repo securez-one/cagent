@@ -19,8 +19,8 @@ import (
 
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/docker"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/monitoring/docker"
 )
 
 var errorProcessTerminated = fmt.Errorf("Process was terminated")

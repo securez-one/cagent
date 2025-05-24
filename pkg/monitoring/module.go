@@ -3,7 +3,7 @@ package monitoring
 import (
 	"time"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 type Alert string

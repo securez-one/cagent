@@ -10,8 +10,8 @@ import (
 	"github.com/StackExchange/wmi"
 	"github.com/go-ole/go-ole"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/hwinfolib"
-	wmiutil "github.com/cloudradar-monitoring/cagent/pkg/wmi"
+	"github.com/securez-one/cagent/pkg/hwinfolib"
+	wmiutil "github.com/securez-one/cagent/pkg/wmi"
 )
 
 const readTimeout = time.Second * 10

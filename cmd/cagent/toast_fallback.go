@@ -5,7 +5,7 @@ package main
 import (
 	"errors"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 func sendErrorNotification(_, _ string) error {

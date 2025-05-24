@@ -8,7 +8,7 @@ import (
 	"github.com/shirou/gopsutil/disk"
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 type FileSystemWatcherConfig struct {

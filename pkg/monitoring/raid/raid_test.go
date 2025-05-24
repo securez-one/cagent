@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring"
+	"github.com/securez-one/cagent/pkg/monitoring"
 )
 
 func helperInitModule(fileName string) *RAID {

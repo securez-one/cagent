@@ -1,4 +1,4 @@
-module github.com/cloudradar/cagent
+module github.com/securez-one/cagent
 
 go 1.16
 

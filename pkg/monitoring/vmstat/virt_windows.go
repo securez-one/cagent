@@ -3,7 +3,7 @@
 package vmstat
 
 import (
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat/hyperv"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat/hyperv"
 )
 
 // Init instantiate virtual machines that is only windows specific

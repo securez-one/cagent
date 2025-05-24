@@ -7,7 +7,7 @@ import (
 	utilnet "github.com/shirou/gopsutil/net"
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 type linkSpeedProvider interface {

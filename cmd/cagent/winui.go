@@ -19,7 +19,7 @@ import (
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 type UI struct {

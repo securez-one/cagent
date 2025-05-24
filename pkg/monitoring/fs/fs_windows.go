@@ -13,7 +13,7 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/winapi"
+	"github.com/securez-one/cagent/pkg/winapi"
 )
 
 const (

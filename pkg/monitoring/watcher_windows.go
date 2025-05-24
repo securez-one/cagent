@@ -3,7 +3,7 @@
 package monitoring
 
 import (
-	"github.com/cloudradar-monitoring/cagent/perfcounters"
+	"github.com/securez-one/cagent/perfcounters"
 )
 
 var watcher *perfcounters.WinPerfCountersWatcher

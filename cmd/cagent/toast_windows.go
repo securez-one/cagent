@@ -12,7 +12,7 @@ import (
 	"github.com/shirou/w32"
 	"gopkg.in/toast.v1"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 const urlScheme = "cagent"

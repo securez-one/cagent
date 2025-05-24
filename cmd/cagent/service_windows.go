@@ -5,7 +5,7 @@ package main
 import (
 	"github.com/kardianos/service"
 
-	"github.com/cloudradar-monitoring/cagent"
+	"github.com/securez-one/cagent"
 )
 
 func updateServiceConfig(ca *cagent.Cagent, username string) {

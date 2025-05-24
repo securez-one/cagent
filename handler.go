@@ -13,15 +13,15 @@ import (
 	"github.com/shirou/gopsutil/mem"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/hwinfo"
-	"github.com/cloudradar-monitoring/cagent/pkg/jobmon"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/docker"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/networking"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/processes"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/sensors"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/services"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/updates"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/hwinfo"
+	"github.com/securez-one/cagent/pkg/jobmon"
+	"github.com/securez-one/cagent/pkg/monitoring/docker"
+	"github.com/securez-one/cagent/pkg/monitoring/networking"
+	"github.com/securez-one/cagent/pkg/monitoring/processes"
+	"github.com/securez-one/cagent/pkg/monitoring/sensors"
+	"github.com/securez-one/cagent/pkg/monitoring/services"
+	"github.com/securez-one/cagent/pkg/monitoring/updates"
 )
 
 type Cleaner interface {

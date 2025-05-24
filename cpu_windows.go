@@ -4,7 +4,7 @@ package cagent
 
 import (
 	"fmt"
-	"github.com/cloudradar-monitoring/cagent/pkg/winapi"
+	"github.com/securez-one/cagent/pkg/winapi"
 	"github.com/shirou/gopsutil/cpu"
 )
 

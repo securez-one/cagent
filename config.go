@@ -15,10 +15,10 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/troian/toml"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/jobmon"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/mysql"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/processes"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/jobmon"
+	"github.com/securez-one/cagent/pkg/monitoring/mysql"
+	"github.com/securez-one/cagent/pkg/monitoring/processes"
 )
 
 const (

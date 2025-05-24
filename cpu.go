@@ -14,7 +14,7 @@ import (
 	"github.com/shirou/gopsutil/load"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 const measureInterval = time.Second * 10

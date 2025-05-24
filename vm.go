@@ -3,9 +3,9 @@ package cagent
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat/types"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat/types"
 )
 
 func (ca *Cagent) getVMStatMeasurements(f func(string, common.MeasurementsMap, error)) {

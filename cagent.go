@@ -11,13 +11,13 @@ import (
 
 	"github.com/cloudradar-monitoring/selfupdate"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/fs"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/networking"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/sensors"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/updates"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/vmstat/types"
-	"github.com/cloudradar-monitoring/cagent/pkg/smart"
+	"github.com/securez-one/cagent/pkg/monitoring/fs"
+	"github.com/securez-one/cagent/pkg/monitoring/networking"
+	"github.com/securez-one/cagent/pkg/monitoring/sensors"
+	"github.com/securez-one/cagent/pkg/monitoring/updates"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat"
+	"github.com/securez-one/cagent/pkg/monitoring/vmstat/types"
+	"github.com/securez-one/cagent/pkg/smart"
 )
 
 // variables set on build. Example:

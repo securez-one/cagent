@@ -11,7 +11,7 @@ import (
 	"github.com/shirou/gopsutil/mem"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 const memGetTimeout = time.Second * 10

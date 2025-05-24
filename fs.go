@@ -1,7 +1,7 @@
 package cagent
 
 import (
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/fs"
+	"github.com/securez-one/cagent/pkg/monitoring/fs"
 )
 
 func (ca *Cagent) GetFileSystemWatcher() *fs.FileSystemWatcher {

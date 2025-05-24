@@ -3,7 +3,7 @@ package cagent
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/networking"
+	"github.com/securez-one/cagent/pkg/monitoring/networking"
 )
 
 func (ca *Cagent) GetNetworkWatcher() *networking.NetWatcher {

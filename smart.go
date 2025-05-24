@@ -3,7 +3,7 @@ package cagent
 import (
 	"strings"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/common"
 )
 
 func (ca *Cagent) getSMARTMeasurements() common.MeasurementsMap {

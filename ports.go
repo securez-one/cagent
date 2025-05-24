@@ -7,8 +7,8 @@ import (
 	"github.com/shirou/gopsutil/net"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/processes"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/monitoring/processes"
 )
 
 type PortStat struct {

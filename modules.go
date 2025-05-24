@@ -4,11 +4,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/cloudradar-monitoring/cagent/pkg/common"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/mysql"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/raid"
-	"github.com/cloudradar-monitoring/cagent/pkg/monitoring/storcli"
+	"github.com/securez-one/cagent/pkg/common"
+	"github.com/securez-one/cagent/pkg/monitoring"
+	"github.com/securez-one/cagent/pkg/monitoring/mysql"
+	"github.com/securez-one/cagent/pkg/monitoring/raid"
+	"github.com/securez-one/cagent/pkg/monitoring/storcli"
 )
 
 var modules []monitoring.Module
